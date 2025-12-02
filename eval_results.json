@@ -1,0 +1,252 @@
+{
+  "overall_metrics": {
+    "timestamp": "2025-11-26T02:03:01.697161",
+    "model": "gpt-4o-mini",
+    "total_test_cases": 10,
+    "successful_answers": 3,
+    "success_rate": 0.3,
+    "avg_keyword_coverage": 0.22,
+    "avg_semantic_similarity": 0.652,
+    "retrieval_threshold": 0.7
+  },
+  "test_results": [
+    {
+      "question": "What are the main principles of the EU AI Act?",
+      "answer": "The main principles of the EU AI Act, as derived from the context, include:\n\n1. **Global Benchmark for Regulation**: The EU aims to establish a global standard for AI regulation, similar to the GDPR's impact on data privacy.\n\n2. **Risk-Based Categorization**: AI systems are categorized based on their risk to society, with different compliance requirements for each category. High-risk systems, particularly in areas like HR and law enforcement, are subject to more stringent regulations.\n\n3. **Prohibition of Certain Systems**: Certain AI systems, such as social scoring and live facial recognition in public spaces, are outright prohibited.\n\n4. **Compliance Requirements**: High-risk AI systems must undergo Fundamental Rights Impact Assessments, akin to the GDPR’s Data Protection Impact Assessments, to ensure the protection of fundamental rights.\n\n5. **Broad Applicability**: The AI Act is designed to be comprehensive and applicable across all sectors, similar to the GDPR.\n\n6. **Proactive Risk Mitigation**: Companies are required to identify and mitigate AI-related risks proactively.\n\n7. **Focus on Fundamental Rights**: While the AI Act does not grant individual rights like the GDPR, its ultimate goal is to protect fundamental rights.\n\n8. **Regulatory Agility**: The EU faces challenges in keeping its regulations agile to adapt to rapidly evolving AI technologies.\n\nThese principles reflect the EU's commitment to balancing innovation with the protection of societal interests and fundamental rights.",
+      "expected_topics": [
+        "risk-based approach",
+        "high-risk AI systems",
+        "prohibited practices",
+        "transparency requirements",
+        "fundamental rights"
+      ],
+      "topics_found": [
+        "high-risk AI systems",
+        "fundamental rights"
+      ],
+      "keyword_coverage": 0.4,
+      "semantic_similarity": 0.806,
+      "quality_metrics": {
+        "word_count": 219,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": true
+    },
+    {
+      "question": "How does China regulate artificial intelligence?",
+      "answer": "China regulates artificial intelligence with a strong emphasis on maintaining state control, which can sometimes conflict with the goal of fostering rapid AI adoption. This regulatory framework is guided by the need to ensure that AI development aligns with the “correct political direction,” as reaffirmed by Xi Jinping. While some regulatory requirements have been softened to support AI growth, political obligations remain particularly stringent for public-facing AI systems. \n\nAdditionally, the Chinese government employs various policy tools, including significant public investment and state-backed venture capital, to influence the development priorities of AI companies, ensuring they align with national objectives. This approach is part of a broader strategy to promote domestic growth and strengthen Chinese tech companies, with the ultimate goal of making China the global AI leader by 2030. \n\nChina's regulatory environment is characterized by its agility, allowing for rapid enactment of targeted policies to address specific AI issues, although this may also lead to uncertainty for companies due to potential instability in the regulatory framework.",
+      "expected_topics": [
+        "state control",
+        "algorithm registry",
+        "content regulation",
+        "social credit",
+        "data security"
+      ],
+      "topics_found": [
+        "state control"
+      ],
+      "keyword_coverage": 0.2,
+      "semantic_similarity": 0.485,
+      "quality_metrics": {
+        "word_count": 165,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "What is the US approach to AI regulation?",
+      "answer": "The U.S. approach to AI regulation is characterized as piecemeal and sector-specific, emphasizing voluntary compliance rather than comprehensive, binding regulations. This approach allows AI technology the space to grow and develop before implementing sweeping regulations. Various AI ethical principles and guidelines have been published by both government and private organizations, and there are several bills proposed at both federal and state levels, although none as broad or centralized as the EU AI Act are currently in progress. \n\nAt the federal level, proposals include one that would require AI companies to disclose copyrighted training data. At the state level, California has proposed rules for automated decision-making technology, while Florida may enhance transparency regarding AI-generated content in political ads. A notable recent development was California's AI bill (SB 1047), which aimed to impose stringent safety standards for high-cost AI models, but it was vetoed by Governor Newsom, who advocated for a balanced, risk-based regulation model. Overall, the U.S. regulatory approach is flexible and focused on promoting innovation, albeit with the risk of lacking a centralized framework.",
+      "expected_topics": [
+        "flexible",
+        "sector-specific",
+        "voluntary guidelines",
+        "federal agencies",
+        "innovation-focused"
+      ],
+      "topics_found": [
+        "flexible",
+        "sector-specific"
+      ],
+      "keyword_coverage": 0.4,
+      "semantic_similarity": 0.517,
+      "quality_metrics": {
+        "word_count": 174,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": true
+    },
+    {
+      "question": "What are the key differences between EU, US, and China AI regulations?",
+      "answer": "The key differences between EU, U.S., and China AI regulations are as follows:\n\n1. **EU Approach**: The EU employs a comprehensive, risk-based strategy with the EU AI Act, which aims to establish a broad and centralized regulatory framework for AI. This approach contrasts with the more fragmented regulations seen in other jurisdictions.\n\n2. **U.S. Approach**: The U.S. takes a more piecemeal and sector-specific approach to AI regulation, emphasizing voluntary compliance rather than sweeping, binding regulations. This strategy allows AI technology to develop with less regulatory pressure, and there are various ethical principles and guidelines proposed at both federal and state levels, but nothing as centralized as the EU AI Act.\n\n3. **China's Approach**: China adopts an agile and responsive regulatory framework, quickly enacting targeted policies to address specific AI issues. While this allows for rapid adaptation to new developments, it may also lead to instability and uncertainty for companies. Additionally, the Chinese government maintains significant control over AI development through public investment and state-backed venture capital, aligning AI companies with national objectives.\n\nThese differences reflect the varying national priorities and values in each jurisdiction regarding AI regulation.",
+      "expected_topics": [
+        "risk-based vs flexible",
+        "comprehensive vs sector-specific",
+        "state control vs market-driven",
+        "regulatory approaches",
+        "enforcement mechanisms"
+      ],
+      "topics_found": [],
+      "keyword_coverage": 0.0,
+      "semantic_similarity": 0.695,
+      "quality_metrics": {
+        "word_count": 187,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "What is algorithmic accountability and why is it important?",
+      "answer": "I don't have sufficient information in my knowledge base to answer that question.",
+      "expected_topics": [
+        "transparency",
+        "explainability",
+        "responsibility",
+        "decision-making",
+        "bias prevention"
+      ],
+      "topics_found": [],
+      "keyword_coverage": 0.0,
+      "semantic_similarity": 0.076,
+      "quality_metrics": {
+        "word_count": 13,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": true,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "What are the ethical principles for AI policy research?",
+      "answer": "The ethical principles for AI policy research, as highlighted in the context, include:\n\n1. **Transparency**: Emphasizing the importance of traceability in AI system design, implementation, deployment, and, whenever possible, reproducibility.\n\n2. **Accountability**: Ensuring that stakeholders understand the risks, assumptions, and trade-offs involved in AI governance.\n\n3. **Inclusivity and Diversity**: Addressing disparities in access to AI technologies and decision-making processes, particularly for underrepresented or historically marginalized communities. This includes examining issues such as data bias and systemic barriers to participation in AI ecosystems.\n\n4. **Well-being of Humans and the Planet**: Prioritizing the well-being of individuals and the environment in AI governance.\n\nThese principles aim to foster accountability, transparency, fairness, and inclusivity in AI governance, contributing to sustainable development and the public good.",
+      "expected_topics": [
+        "human welfare",
+        "transparency",
+        "inclusivity",
+        "accountability",
+        "planetary welfare"
+      ],
+      "topics_found": [
+        "transparency",
+        "inclusivity",
+        "accountability"
+      ],
+      "keyword_coverage": 0.6,
+      "semantic_similarity": 0.791,
+      "quality_metrics": {
+        "word_count": 121,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": true
+    },
+    {
+      "question": "What is the AI dilemma in regulation?",
+      "answer": "The AI dilemma in regulation centers on balancing safety with innovation. Stringent AI laws can stifle innovation, while unchecked innovation can pose risks to society and individuals. Each jurisdiction approaches this balance differently, influenced by broader national goals, cultural norms, and socio-political contexts, reflecting unique national priorities around issues such as privacy, security, economic competitiveness, and technological leadership. Ultimately, addressing the AI dilemma requires countries to find an optimal path that fosters technological advancement while safeguarding against potential risks and aligning with their values and objectives.",
+      "expected_topics": [
+        "innovation vs safety",
+        "economic growth vs risk",
+        "regulation balance",
+        "competitiveness",
+        "public interest"
+      ],
+      "topics_found": [
+        "competitiveness"
+      ],
+      "keyword_coverage": 0.2,
+      "semantic_similarity": 0.837,
+      "quality_metrics": {
+        "word_count": 86,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "What role does transparency play in AI governance?",
+      "answer": "Transparency plays a critical role in AI governance by underscoring the importance of traceability in the design, implementation, deployment, and, whenever possible, reproducibility of AI systems. It is part of the broader framework that emphasizes accountability, fairness, and inclusivity in AI governance. The transparency principle is essential for policymakers and stakeholders to understand the risks, assumptions, and trade-offs involved in AI governance, ensuring that AI advancements serve a wide range of societal interests and contribute to the public good.",
+      "expected_topics": [
+        "explainability",
+        "accountability",
+        "trust",
+        "auditing",
+        "public understanding"
+      ],
+      "topics_found": [
+        "accountability"
+      ],
+      "keyword_coverage": 0.2,
+      "semantic_similarity": 0.928,
+      "quality_metrics": {
+        "word_count": 79,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "How should AI policy address bias and discrimination?",
+      "answer": "AI policy should address bias and discrimination by examining disparities in access to AI technologies, their benefits, and AI-related decision-making processes, particularly in underrepresented or historically marginalized communities. This includes investigating issues such as data bias, unequal distribution of AI advancements and resources, and systemic barriers to participation in AI ecosystems at local, regional, and global levels. Promoting diversity in AI governance is also essential to ensure that AI serves a wide range of societal interests.",
+      "expected_topics": [
+        "fairness",
+        "testing",
+        "diverse data",
+        "accountability",
+        "protected characteristics"
+      ],
+      "topics_found": [],
+      "keyword_coverage": 0.0,
+      "semantic_similarity": 0.655,
+      "quality_metrics": {
+        "word_count": 76,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    },
+    {
+      "question": "What are high-risk AI systems according to EU regulations?",
+      "answer": "High-risk AI systems, according to EU regulations, are often used in areas such as human resources (HR) or law enforcement. These systems bear the majority of the regulatory burden and are required to undergo Fundamental Rights Impact Assessments, which are similar to the Data Protection Impact Assessments mandated by the GDPR. The emphasis is on protecting fundamental rights, including data privacy.",
+      "expected_topics": [
+        "critical infrastructure",
+        "education",
+        "employment",
+        "law enforcement",
+        "biometric identification"
+      ],
+      "topics_found": [
+        "law enforcement"
+      ],
+      "keyword_coverage": 0.2,
+      "semantic_similarity": 0.725,
+      "quality_metrics": {
+        "word_count": 61,
+        "has_sources": true,
+        "source_count": 5,
+        "is_refusal": false,
+        "has_uncertainty": false
+      },
+      "is_successful": false
+    }
+  ]
+}

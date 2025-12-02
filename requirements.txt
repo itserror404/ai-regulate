@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-pinecone
+langchain-huggingface
+langchain-openai
+pinecone-client
+transformers
+torch
+sentence-transformers
+openai
+python-dotenv
+scikit-learn
+langfuse
